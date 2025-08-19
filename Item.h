@@ -1,8 +1,3 @@
-/*Title: Item.h
-  Author: Prof. Dixon
-  Date: 4/17/2025
-  Description: This class defines items (things you can craft)
-*/
 #ifndef ITEM_H
 #define ITEM_H
 #include <string>
@@ -34,4 +29,5 @@ private:
   string m_name;        // Name of item
   vector<string> m_req; // Requirements by value
 };
+
 #endif
