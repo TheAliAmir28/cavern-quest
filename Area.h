@@ -1,9 +1,3 @@
-/*Title: Area.h
-Author: Prof. Dixon
-Date: 4/17/2025
-Description: This class defines areas (places you can visit)
-*/
-
 #ifndef AREA_H //Header Guard
 #define AREA_H //Header Guard
 #include <iostream>
@@ -54,4 +48,5 @@ class Area {
   string m_desc; //Description of area
   int m_direction[4]; //Array holding area to north, east, south, west (-1 if no exit)
 };
+
 #endif //Header Guard
