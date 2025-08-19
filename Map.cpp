@@ -1,12 +1,3 @@
-/*Title: Map.cpp
-  Author: Prof. Dixon
-  Date: 4/17/2025
-  Description: This class defines the Map class
-  Map is a templated associative container that stores
-  key–value pairs in sorted order using a singly linked
-  list, supporting insertion, lookup, update, and removal
-  with O(n) traversal.
-*/
 #ifndef MAP_H
 #define MAP_H
 
@@ -343,4 +334,5 @@ template<typename K, typename V>
 Map<K, V>::~Map() {
     // Call Clear to free memory
     Clear();
+
 }
