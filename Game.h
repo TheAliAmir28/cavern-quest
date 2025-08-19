@@ -1,8 +1,3 @@
-/*Title: Game.h
-  Author: Prof. Dixon
-  Date: 4/17/2025
-  Description: This class defines the game
-*/
 #ifndef GAME_H //Header guards
 #define GAME_H //Header guards
 
@@ -116,5 +111,6 @@ private:
   string m_craftFile; // Name of the input file for the craftable items
   string m_areaFile; // Name of the input file for the
 };
+
 
 #endif
