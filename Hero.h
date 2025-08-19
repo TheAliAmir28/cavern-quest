@@ -1,9 +1,3 @@
-/*Title: Hero.h
-  Author: Prof. Dixon
-  Date: 4/17/2025
-  Description: This class defines the hero
-*/
-
 #ifndef HERO_H
 #define HERO_H
 #include <iostream>
@@ -112,4 +106,5 @@ private:
   string m_name; //Name of the hero
   Map<string,int> m_inventory; //Inventory of items
 };
+
 #endif
